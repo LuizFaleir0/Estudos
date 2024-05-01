@@ -1,0 +1,21 @@
+{
+  "name": "create-animal-factory",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node  --import tsx src/index.ts",
+    "start": "node build/index.js",
+    "build": "tsc -b ./tsconfig.json"
+  },
+  "author": "Luiz Faleiro",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "tsx": "^4.7.3"
+  },
+  "dependencies": {
+    "inquirer": "^9.2.20"
+  }
+}
