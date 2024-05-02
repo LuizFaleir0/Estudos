@@ -1,7 +1,7 @@
-import { QuestionCollection } from "inquirer"
-import { QuestionAnimalType } from "../interfaces/IAnimal.js"
+import type { QuestionCollection } from "inquirer"
 
-export const QAnimalType: QuestionAnimalType = {
+// Perguntas para questionamento de Animais
+export const QAnimalType: QuestionCollection = {
     type: 'list',
     name: "animalType",
     message: "Qual animal você deseja ter?",

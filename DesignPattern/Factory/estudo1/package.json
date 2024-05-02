@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "node  --import tsx src/index.ts",
     "start": "node build/index.js",
-    "build": "tsc -b ./tsconfig.json"
+    "build": "tsc -project tsconfig.json",
+    "build:w": "tsc --watch -project tsconfig.json"
   },
   "author": "Luiz Faleiro",
   "license": "MIT",
